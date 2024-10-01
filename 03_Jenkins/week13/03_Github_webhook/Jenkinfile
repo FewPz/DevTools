@@ -45,13 +45,7 @@ pipeline {
         stage('Clear Docker Components') {
             steps {
                 script {
-                    // Remove Docker images and containers 
-                    // Do not stop my container kub aj mysql has been goneeeeeeeeee .
-
-                    // sh 'docker stop $(docker ps -a -q)'  
-                    // sh  'docker rm $(docker ps -a -q)' 
-                    // sh  'docker rmi $(docker images -q)'
-                    // sh 'docker system prune -af'
+                    sh 'Skipped'
                 }
             }
         }
