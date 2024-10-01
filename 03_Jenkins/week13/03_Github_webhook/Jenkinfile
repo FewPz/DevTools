@@ -45,7 +45,7 @@ pipeline {
         stage('Clear Docker Components') {
             steps {
                 script {
-                    sh 'Skipped'
+                    echo 'Skipped'
                 }
             }
         }
